@@ -1,0 +1,123 @@
+body {
+    margin-top: 0;
+    background-color: rgb(128, 141, 159);
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    font-size: 150%;
+    margin: 0;
+    padding: .5em 0 .25em;
+    text-align: center;
+}
+h2 {
+    font-size: 120%;
+    margin: 0;
+    padding: .25em 0 .5em;
+}
+h1, h2 
+{
+    color: rgb(205, 163, 94);
+}
+ul 
+{
+    margin: 0 0 1em 0;
+    padding: 0 0 0 2.5em;
+}
+li 
+{
+    margin: 0;
+    padding: 0;
+}
+ul.nav 
+{
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+ul.nav li 
+{
+    padding-bottom: 0.5em;
+}
+a 
+{
+    color: rgb(69, 85, 106);   
+    font-weight: bold; 
+}
+a:hover 
+{
+    color: blue;
+}
+form 
+{
+    margin: 0;    
+}
+br {
+    clear: left;
+}
+#page {
+    width: 760px;
+    margin: 0 auto;
+    background-color: white;
+    border: 1px solid rgb(119, 75, 77);
+}
+#header {
+    margin: 0;
+    border-bottom: 2px solid rgb(119, 75, 77);
+    padding: .5em 2em;
+}
+#header h1 {
+    margin: 0;
+    padding: .5em 0;
+    color: black;
+}
+#main {
+    margin: 0;
+    padding: .5em 2em;
+}
+
+#sidebar {
+    float: left;
+    width: 150px;
+}
+
+#content {
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    padding-bottom: 1.5em;
+}
+#footer {
+    clear: both;
+    margin-top: 1em;
+    padding-right: 1em;
+    border-top: 2px solid rgb(119, 75, 77);
+}
+#footer {
+    text-align: right;
+    font-size: 80%;
+    margin: 1em 0;
+}
+.right {
+    text-align: right;
+}
+#additions
+{
+	text-align: center;
+}
+#viewing
+{
+	text-align: center;
+}
+#fun
+{
+	padding-left: 1em;
+	text-align: left;
+}
+#customer
+{
+	text-align: center;
+}
+#buttons
+{
+	text-align: center;
+}
