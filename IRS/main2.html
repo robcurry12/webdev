@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang = "en">
+	<head>
+		<meta charset = "UTF-8">
+		<title> Who Must File IRS Form 2106? </title>
+		<link rel="stylesheet" href="index2.css">
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<script src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
+		<script src="irs.js"></script>
+	</head>
+	
+	
+	
+	<body>
+		<header>
+			Filing for IRS Form 2106			
+		</header>
+		
+		<div id = "intro">
+			<p id = "paragraph">
+				<i>Should you file for the IRS Form 2106? Take this survey and find out!</i>
+			</p>
+		</div>
+		<section id = "irs">
+			<div class = "open" id = "a">
+			<h1><u>Who must file IRS Form 2106?</u></h1>
+			<h2>Were you an employee during the year?</h2>
+				<input type="button"  id="yes1" value="Yes">
+				<input type="button" id="no1" value="No">
+			</div>
+				
+			<div class = "closed" id = "b">
+			<h2>Did you have job-related buisness expenses?</h2>
+				<input type="button" id="yes2" value="Yes">
+				<input type="button" id="no2" value="No">
+			</div>
+			
+			<div class = "closed" id = "c">
+			<h2>Were you reimbursed for any of your buisness expenses (count only reimbursemets your empoyer did not include in
+				box 1 of your W-2 Form)?</h2>
+				<input type="button" id="yes3" value="Yes">
+				<input type="button" id="no3" value="No">
+			</div>
+			
+			<div class = "closed" id = "d">
+			<h2>Are you claiming job-related vehicle, travel, transportation, meals, or entertainment expenses?</h2>
+				<input type="button" id="yes4_1" value="Yes">
+				<input type="button" id="no4_1" value="No">
+			</div>
+			
+			<div class = "closed" id = "e">
+			<h2>Are you a reservist, a qualified performing artis, a fee-basis state or local goverment official, or an individual with a disability 
+				claiming impatient-related work expenses? See the line 10 instructions for definitions.</h2>
+				<input type="button" id="yes5_1" value="Yes">
+				<input type="button" id="no5_1" value="No">
+			</div>
+			
+			<div class = "closed" id = "f">
+			<h2>Did you use a vehicle in your job in 2013 that you also used for buisness in a prior year?</h2>
+				<input type="button" id="yes4_2" value="Yes">
+				<input type="button" id="no4_2" value="No">
+			</div>
+			
+			<div class = "closed" id = "g">
+			<h2>Is either (1) or (2) true?</h2>
+			<ol>
+				<li>You owned this vehicle and used the actual expense method in the first year you used the vehicle for buisness</li>
+				<li>You used a depreciation method other than straight line for this vehicle in a prior year</li>
+			</ol>
+				<input type="button" id="yes5_2" value="Yes">
+				<input type="button" id="no5_2" value="No">
+			</div>
+			
+			<div class = "closed" id = "h">
+			<h2>Are your deductible expenses more than your reimbursemens (count only reimbursements your employer did not include
+				in box 1 of your W-2 Form)? For rules covering employer reporting of reimbursed expenses, see the instruction for line 7</h2>
+				<input type="button" id="yes6" value="Yes">
+				<input type="button" id="no6" value="No">
+			</div>
+			
+			<div class = "closed" id = "yesone">
+				<h2>File Form 2106 (but see Note below).</h2>
+			</div>	
+			
+			<div class = "closed" id = "yestwo">
+				<h2>File Form 2106.</h2>
+			</div>	
+			
+			<div class = "closed" id = "yesthree">
+				<h2>File Form 2106 (but see Notes).</h2>
+			</div>	
+			
+			<div class = "closed" id = "noone">
+				<h2>Do not file Form 2106. See the instructions for Schedule C, C-EZ, E, OR F</h2>
+			</div>
+			
+			<div class = "closed" id = "notwo">
+				<h2>Do not file Form 2106.</h2>
+			</div>	
+			
+			<div class = "closed" id = "nothree">
+				<h2>Do not file Form 2106. Enter expenses on Schedule A (Form 1040), line 21 or Schedule A (Form 1040NR), line 7. 
+					These expenses include buisness gifts, education (tuition and books), home office, trade publications, etc. </h2>
+			</div>	
+			
+			<div class = "closed" id = "nofour">
+				<h2>Do not file Form 2106.</h2>
+			</div>
+			
+			<div class = "closed" id = "notes">
+				<h2>Notes</h2>
+				<ul>
+					<li>Generally, employee expenses are a deductible only on line 21 of Schedule A (Form 1040) or line 7 of Schedule A
+					(Form 1040NR). But reservists, qualified performing artists, fee basis state or local government officials, and individuals
+					with disabilities should see the instructions for line 10 to find out where to deduct employee expenses.
+					</li>
+					<li>Do not file Form 2106 if none of your expenses are deductible because of the 2% limit on miscellaneous itemized deductible.</li>
+				</ul>
+			</div>	
+			
+			
+			
+			
+		</section>	
+	</body>

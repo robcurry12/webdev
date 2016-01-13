@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang = "en">
+	<head>
+		<meta charset = "UTF-8">
+		<title> DSM Decision Flowchart for Research Involving Humans or Human-Derived Materials</title>
+		<link rel="stylesheet" href="index.css">
+		<script src="dsm1.js"></script>
+	</head>
+	
+	
+	<body>
+		<header>
+			DSM Decision Flowchart for Research Involving 
+			Humans or Human-Derived Materials
+			National Heart, Lung, and Blood Institute
+			National Institutes of Health
+			September 2011 
+		</header>
+		
+		<div id = "intro">
+			<p id = "paragraph"><i>Answer with your opinion to each of the following questions on reasearch involving humans</i></p>
+		</div>
+		<section id = "dsm">
+			<h1><u>DSM Decision Flowchart</u></h1>
+			<h2>Is the research IRB exempt?</h2>
+				<input type="button"  id="yes1" value="Yes">
+				<input type="button" id="no1" value="No">
+			
+			<div class = "closed" id = "yesone">
+			<p>Send IRB exemption notification to NHLBI</p>
+			</div>
+			
+			<div class = "closed" id = "noone">
+			<h2>Is the research a clinical trial?</h2>
+				<input type="button" id="yes2" value="Yes">
+				<input type="button" id="no2" value="No">
+			</div>
+			
+			<div class = "closed" id = "yestwo">
+			<h2>Does the clinical trial meet at least one of the following criteria?</h2>
+			<ol>
+				<li>Phase III</li>
+				<li>Multisite</li>
+				<li>High risk or blinded intervention</li>
+				<li>Vulnerable population</li>
+			</ol>
+			
+					<input type="button" id="yes3_1" value="Yes">
+					<input type="button" id="no3_1" value="No">	
+				</div>
+			
+			<div class = "closed" id = "notwo">
+			<h2>Does the human subjects research involve greater than minimal risk to participants?</h2>
+				<input type="button" id="yes3_2" value="Yes">
+				<input type="button" id="no3_2" value="No">	
+			</div>
+			
+			<div class = "closed" id = "yesthreeone">
+			<ol>
+				<li>IRB-approved DSM plan is required</li>
+				<li>DSMB is <strong>generally</strong> required</li>
+			</ol>	
+			</div>
+			
+			<div class = "closed" id = "yesnothree">
+			<ol>
+				<li>IRB-approved DSM plan is required</li>
+				<li>DSMB/OSMB may be required(consult PO)</li>
+			</ol>	
+			</div>
+			
+			<div class = "closed" id = "nothree">
+			<p>Certification of minimal risk status <strong>may be</strong> required.</p>
+			</div>
+			
+			<div class = "closed" id = "nofour">
+			<p>Send IRB approval to NHLBI GMO/CO (copy PO). Report any changes in the risk of study participation</p>
+			</div>
+			
+			<div class = "closed" id = "yesfour">
+			<p>Send IRB approval to NHLBI GMO/CO (copy PO). For Type 5 noncompeting renewal, report adherence to DSM plan, summarize any DSM that
+			have occured, and report any changes in risk of study participation</p>
+			</div>
+				
+			
+			
+		</section>
+	</body>	
+</html>

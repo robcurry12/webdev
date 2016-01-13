@@ -1,0 +1,80 @@
+/* type selectors */
+article, aside, figure, figcaption, footer, header, nav, section {
+    display: block;
+}
+* {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 87.5%;
+	width: 650px;
+	margin: 0 auto;
+	border: 3px solid blue;
+	background-color: rgb(240,240,240);
+}
+header{
+	width: 100%;
+	height: 200px;
+	background-size:100% 100%;
+	background-image:url("images/irs.png");
+	border-width: 3px;
+	border-style: solid;
+	border-color:black;
+	color: black;
+	font-weight: bold;
+	padding-top: 2px;
+}
+section {
+	padding: 15px 25px;
+}
+h1 { 
+	font-size: 150%;
+	border: 1px black;
+	padding: 2px 2px 2px 2px;
+	text-align: center;
+}
+h2 {
+	font-size: 120%;
+	padding: .25em 0 .25em 25px;
+	cursor: pointer;
+}
+
+ol {
+	padding-left: 45px;
+}
+li {
+	padding-bottom: .25em;
+}
+#paragraph{
+	font-weight:bold;
+}
+p {
+	padding-bottom: 5px;
+	padding-left: 25px;
+	padding-top: 5px;
+	border: 3px blue;
+	
+}
+div.closed {
+	display: none;
+}
+div.open {
+	display: block;
+}
+input
+{
+	background-color: #6495ED;
+	width: 60px;
+	height: 40px;
+}
+input:hover
+{
+	background-color: yellow;
+}
+input:disabled
+{
+	background-color: blue;
+}
